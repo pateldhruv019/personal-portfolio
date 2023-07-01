@@ -2,3 +2,193 @@
   margin: 0;
   padding: 0;
 }
+
+/* Navigation Bar CSS */
+
+.custom-container {
+  padding-left: 300px; /* Adjust the value to increase or decrease the space on the left */
+  padding-right: 300px; /* Adjust the value to increase or decrease the space on the right */
+}
+
+@media (max-width: 768px) {
+  /* Adjust the breakpoint value (768px in this example) as per your requirements */
+  .custom-container {
+    padding-left: 20px; /* Adjust the value for smaller screens */
+    padding-right: 20px; /* Adjust the value for smaller screens */
+  }
+}
+
+.nav-link {
+  font-size: 25px;
+  font-family: "Roboto Slab", serif;
+}
+
+.navbar-brand {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 50px;
+}
+
+/* MainSection CSS */
+
+.left-heading {
+  font-family: "Roboto Slab", serif;
+  font-size: 4vw;
+}
+
+.occupation-button {
+  background-color: #ffd4ab;
+  color: black;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 22px;
+}
+
+.occupation-button:hover {
+  background-color: #ffd4ab;
+  color: black; /* Light orange color */
+  /* Add any other desired styles for hover state */
+}
+
+.left-description {
+  font-size: 20px;
+}
+
+@media (max-width: 767px) {
+  /* Styles for screens smaller than 768px (e.g., mobile devices) */
+  .row {
+    flex-direction: column;
+  }
+  .left-section,
+  .right-section {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.resume-button {
+  background-color: #ff9a3c;
+  color: black;
+  border-radius: 10px;
+  padding: 15px 24px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.linkedin-button {
+  background-color: #0087fd;
+  color: white;
+  border-radius: 10px;
+  padding: 15px 24px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.linkedin-button:hover {
+  background-color: #41a4fb;
+  color: white; /* Light orange color */
+  /* Add any other desired styles for hover state */
+}
+
+.resume-button:hover {
+  background-color: #ffc250; /* Light orange color */
+  /* Add any other desired styles for hover state */
+}
+
+.project-button {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.project-number {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 30px;
+}
+
+.project-details {
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+}
+
+.contact-heading {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 30px;
+}
+
+.contact-details {
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+}
+
+.react-logo,
+.node-logo,
+.mysql-logo {
+  width: 90px;
+  height: 90px;
+}
+
+@media (max-width: 767px) {
+  .react-logo,
+  .node-logo,
+  .mysql-logo {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.react-logo {
+  position: absolute;
+  top: 30%;
+  left: 87%;
+}
+
+.node-logo {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.mysql-logo {
+  position: absolute;
+  bottom: 33%;
+  right: 9%;
+}
+
+.left-section {
+  padding: 0;
+  margin: 0;
+}
+
+.right-section {
+  padding: 0;
+  margin: 0;
+}
+
+.custom-row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.react-logo,
+.node-logo,
+.mysql-logo {
+  width: 90px;
+  height: 90px;
+}
+
+@media (max-width: 767px) {
+  .react-logo,
+  .node-logo,
+  .mysql-logo {
+    display: none; /* Hide the logos for smaller screens */
+  }
+}
+
+@media (max-width: 991px) {
+  .left-section,
+  .right-section {
+    padding: 20px; /* Adjust the padding as per your requirements */
+  }
+}

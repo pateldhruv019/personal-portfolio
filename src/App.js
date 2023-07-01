@@ -1,10 +1,13 @@
 import "./App.css";
-import NavigationBar from "./components/NavigationBar/NavigationBar";
+import MainRoute from "./routes/MainRoute";
+import { BrowserRouter } from "react-router-dom";
 
 const App = () => {
   return (
     <div className="App">
-      <NavigationBar />
+      <BrowserRouter>
+        <MainRoute />
+      </BrowserRouter>
     </div>
   );
 };
